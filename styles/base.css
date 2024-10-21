@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header,
+main {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+@media (min-width: 640px) {
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 100%;
+  }
+}
